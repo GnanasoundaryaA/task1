@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{72173C53-2086-4B49-8CB4-FFBF7C1F6042}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>datasirpi</RootNamespace>
+    <AssemblyName>datasirpi</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="banner.jpg" />
+    <Content Include="banner1.jpg" />
+    <Content Include="black.jpg" />
+    <Content Include="con1.jpg" />
+    <Content Include="fonts\material-icon\css\material-design-iconic-font.css" />
+    <Content Include="fonts\material-icon\css\material-design-iconic-font.min.css" />
+    <Content Include="home.aspx" />
+    <Content Include="images\your-picture.png" />
+    <Content Include="Style.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fonts\material-icon\fonts\Material-Design-Iconic-Font.eot" />
+    <None Include="fonts\material-icon\fonts\Material-Design-Iconic-Font.svg" />
+    <None Include="fonts\material-icon\fonts\Material-Design-Iconic-Font.ttf" />
+    <None Include="fonts\material-icon\fonts\Material-Design-Iconic-Font.woff" />
+    <None Include="fonts\material-icon\fonts\Material-Design-Iconic-Font.woff2" />
+    <None Include="fonts\poppins\poppins-v5-latin-300.eot" />
+    <None Include="fonts\poppins\poppins-v5-latin-300.svg" />
+    <None Include="fonts\poppins\poppins-v5-latin-300.ttf" />
+    <None Include="fonts\poppins\poppins-v5-latin-300.woff" />
+    <None Include="fonts\poppins\poppins-v5-latin-300.woff2" />
+    <None Include="fonts\poppins\poppins-v5-latin-300italic.eot" />
+    <None Include="fonts\poppins\poppins-v5-latin-300italic.svg" />
+    <None Include="fonts\poppins\poppins-v5-latin-300italic.ttf" />
+    <None Include="fonts\poppins\poppins-v5-latin-300italic.woff" />
+    <None Include="fonts\poppins\poppins-v5-latin-300italic.woff2" />
+    <None Include="fonts\poppins\poppins-v5-latin-500.eot" />
+    <None Include="fonts\poppins\poppins-v5-latin-500.svg" />
+    <None Include="fonts\poppins\poppins-v5-latin-500.ttf" />
+    <None Include="fonts\poppins\poppins-v5-latin-500.woff" />
+    <None Include="fonts\poppins\poppins-v5-latin-500.woff2" />
+    <None Include="fonts\poppins\poppins-v5-latin-500italic.eot" />
+    <None Include="fonts\poppins\poppins-v5-latin-500italic.svg" />
+    <None Include="fonts\poppins\poppins-v5-latin-500italic.ttf" />
+    <None Include="fonts\poppins\poppins-v5-latin-500italic.woff" />
+    <None Include="fonts\poppins\poppins-v5-latin-500italic.woff2" />
+    <None Include="fonts\poppins\poppins-v5-latin-600.eot" />
+    <None Include="fonts\poppins\poppins-v5-latin-600.svg" />
+    <None Include="fonts\poppins\poppins-v5-latin-600.ttf" />
+    <None Include="fonts\poppins\poppins-v5-latin-600.woff" />
+    <None Include="fonts\poppins\poppins-v5-latin-600.woff2" />
+    <None Include="fonts\poppins\poppins-v5-latin-700.eot" />
+    <None Include="fonts\poppins\poppins-v5-latin-700.svg" />
+    <None Include="fonts\poppins\poppins-v5-latin-700.ttf" />
+    <None Include="fonts\poppins\poppins-v5-latin-700.woff" />
+    <None Include="fonts\poppins\poppins-v5-latin-700.woff2" />
+    <None Include="fonts\poppins\poppins-v5-latin-700italic.eot" />
+    <None Include="fonts\poppins\poppins-v5-latin-700italic.svg" />
+    <None Include="fonts\poppins\poppins-v5-latin-700italic.ttf" />
+    <None Include="fonts\poppins\poppins-v5-latin-700italic.woff" />
+    <None Include="fonts\poppins\poppins-v5-latin-700italic.woff2" />
+    <None Include="fonts\poppins\poppins-v5-latin-800.eot" />
+    <None Include="fonts\poppins\poppins-v5-latin-800.svg" />
+    <None Include="fonts\poppins\poppins-v5-latin-800.ttf" />
+    <None Include="fonts\poppins\poppins-v5-latin-800.woff" />
+    <None Include="fonts\poppins\poppins-v5-latin-800.woff2" />
+    <None Include="fonts\poppins\poppins-v5-latin-800italic.eot" />
+    <None Include="fonts\poppins\poppins-v5-latin-800italic.svg" />
+    <None Include="fonts\poppins\poppins-v5-latin-800italic.ttf" />
+    <None Include="fonts\poppins\poppins-v5-latin-800italic.woff" />
+    <None Include="fonts\poppins\poppins-v5-latin-800italic.woff2" />
+    <None Include="fonts\poppins\poppins-v5-latin-900.eot" />
+    <None Include="fonts\poppins\poppins-v5-latin-900.svg" />
+    <None Include="fonts\poppins\poppins-v5-latin-900.ttf" />
+    <None Include="fonts\poppins\poppins-v5-latin-900.woff" />
+    <None Include="fonts\poppins\poppins-v5-latin-900.woff2" />
+    <None Include="fonts\poppins\poppins-v5-latin-italic.eot" />
+    <None Include="fonts\poppins\poppins-v5-latin-italic.svg" />
+    <None Include="fonts\poppins\poppins-v5-latin-italic.ttf" />
+    <None Include="fonts\poppins\poppins-v5-latin-italic.woff" />
+    <None Include="fonts\poppins\poppins-v5-latin-italic.woff2" />
+    <None Include="fonts\poppins\poppins-v5-latin-regular.eot" />
+    <None Include="fonts\poppins\poppins-v5-latin-regular.svg" />
+    <None Include="fonts\poppins\poppins-v5-latin-regular.ttf" />
+    <None Include="fonts\poppins\poppins-v5-latin-regular.woff" />
+    <None Include="fonts\poppins\poppins-v5-latin-regular.woff2" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-700.eot" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-700.svg" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-700.ttf" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-700.woff" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-700.woff2" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-700italic.eot" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-700italic.svg" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-700italic.ttf" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-700italic.woff" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-700italic.woff2" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-italic.eot" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-italic.svg" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-italic.ttf" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-italic.woff" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-italic.woff2" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-regular.eot" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-regular.svg" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-regular.ttf" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-regular.woff" />
+    <None Include="fonts\poppins\roboto-condensed-v16-latin-regular.woff2" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1043</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
